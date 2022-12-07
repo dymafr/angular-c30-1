@@ -1,6 +1,6 @@
 import './jasmine.ts';
 import 'jasmine-core/lib/jasmine-core/jasmine-html.js';
-import 'jasmine-core/lib/jasmine-core/boot.js';
+// import 'jasmine-core/lib/jasmine-core/boot.js';
 
 import 'zone.js/dist/async-test';
 import 'zone.js/dist/fake-async-test';

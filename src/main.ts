@@ -1,6 +1,7 @@
 import './jasmine.ts';
 import 'jasmine-core/lib/jasmine-core/jasmine-html.js';
 import 'jasmine-core/lib/jasmine-core/boot.js';
+import 'zone.js';
 
 import 'zone.js/dist/async-test';
 import 'zone.js/dist/fake-async-test';
@@ -31,7 +32,7 @@ declare global {
     return;
   }
 
-  // window.jasmineRef = jasmine.getEnv();
+  window.jasmineRef = jasmine.getEnv();
 
   getTestBed().initTestEnvironment(
     BrowserDynamicTestingModule,
